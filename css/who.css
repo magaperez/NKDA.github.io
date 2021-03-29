@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "Franklin Gothic Demi";
+	src: url("../fonts/Franklin Gothic Demi/FranklinGothicDemi.ttf");
+}
+
+
+#logo{
+    position: absolute;
+    z-index: 2;
+    margin-left: 5%;
+    width: 10%;
+}
+
+#imagen{
+width:100%;
+height:auto;
+}
+
+
+#nav{
+    z-index: 0;
+    margin-bottom: 5%;
+	color:#FFFFFF !important;
+	padding: 0;
+}
+
+#general{
+	max-width:1280px;
+	position: relative;
+}
+
+
+body{
+font-family: "Franklin Gothic Demi";	
+}
+
+.navbar-custom{
+	background-color:#CB2E3A; 
+	font-size:18px;
+}	
+
+.nav-item{
+    text-align: right;
+}
+
+.navbar-nav > .active > a {
+color: white !important;
+margin: 20px;
+}
+
+#donate {
+    background-color: #061032;
+margin: 20px;
+}
+
+#donate-nav{
+    background-color: #061032;
+
+}
+
+#contact{
+	margin-top:3%;
+	background-color: #061032;
+	color:#FFF;
+}
+
+#infodelcarajo, #address{
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+#infodelcarajo h4, #address h4{
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+#infodelcarajo p, #address p{
+font-size:1em;
+}
+
+#SignupBTN{
+text-transform: uppercase;
+font-size: 0.75em;
+}
+
+#address{
+	text-align: right;
+}
+
+#footer{
+	widht:100%;
+	text-align: center;
+	background-color: #061032;
+	color:#FFF;
+	font-size: 0.93em;
+	padding-bottom:2%;
+}
+
+
+#title{
+    font-family: "Franklin Gothic Demi";
+    width: 100%;
+    color: #BF2D3F;
+    font-size: 2.06em;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+#corporate{
+	color:#061032;
+	margin-bottom:3%;
+}
+
+#mission{
+    border-left: 11px solid #BF2D3F;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+#mission h2{
+    font-family: "Franklin Gothic Demi";
+    font-size: 1.438em;
+    margin-top: 4%;
+}
+
+#mission p{
+	font-family: "Franklin Gothic Demi";
+	font-size:1.125em;
+}
+
+#founded{
+padding-top:1%;
+font-family: "Franklin Gothic Demi";
+font-size:1.31em;
+}
+
+
+/* Slider */
+
+#logos{
+	background-color:#DDEFF5;
+	margin-bottom:3%;
+	padding-top:2%;
+}
+
+
+#logos h2{
+	font-family: "Franklin Gothic Demi";
+	background-color:#DDEFF5;
+	text-align:center;
+	text-transform: uppercase;
+	color:#061032;
+	font-size:1.56em;
+}
+
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+#title3 h2{
+	font-family: "Franklin Gothic Demi";
+	text-align:center;
+	text-transform: uppercase;
+	color:#061032;
+	font-size:1.56em;
+}
+
+#title3 p{
+	font-family: "Franklin Gothic Demi";
+	text-align:center;
+	color:#061032;
+	font-size:1.06em;
+
+}
+
+#team{
+    text-align: center;
+    margin-bottom: 3%;
+/*    margin-left: 1%;*/
+}
+
+#equipo{
+z-index:0;
+
+}
+
+
+/*
+#ceo{
+    z-index: 2;
+    left: 36%;
+    top: 104px;
+}
+
+#cco{
+    z-index: 3;
+    left: 59%;
+    margin-top: 0%;
+    top: 153px;
+}
+
+#strategy{
+    z-index: 4;
+    left: 10%;
+    top: -166px;
+}
+*/
+
+
+button {
+	font-family:"Franklin Gothic Demi";
+	 font-size: 0.75em;
+	 line-height: 1;
+	 text-transform: uppercase;
+	 position: relative;
+	 border: 0.1875em solid;
+	 padding: 1em;
+	 background-color: #CB2E3A;
+	 color:#FFFFFF;
+	 border-radius: 0.125em;
+	 transition: background 0.3s;
+}
+ button:hover, button:focus {
+	 color: white;
+	 background: #061032;
+	 border-color: #061032;
+}
+ button:active {
+	 top: 0.08em;
+}
+ .svg-icon {
+	/* Place the icon on the text baseline. */
+	 position: relative;
+	 top: 0.125em;
+	/* Prevent the icon from shrinking inside a flex container. */
+	 flex-shrink: 0;
+	/* Scale the icon to match the font-size of the parent element. */
+	 height: 1em;
+	 width: 1em;
+	/* Let the icon take whatever color the parent has. */
+	 fill: #FFFFFF;
+	/* * If the icon is used on a link, which has a color transition, * we can also use a transition on the fill value. */
+	 transition: fill 0.3s;
+}
+/* Helper Class to hide text visually but keep it accessible for screen reader or other assistive software. */
+
+ .visually-hidden {
+	 position: absolute;
+	 height: 2px;
+	 width: 2px;
+	 overflow: hidden;
+	 clip: rect(0, 0, 0, 0);
+	 white-space: nowrap;
+}
+ 
+
+
+@media screen and (max-width:768px){
+	
+	#title h1{
+	font-size:1em;
+}
+	
+	#mission h2, #partners h2, #title h2{
+	font-size:1.12em;
+}
+
+#mission h2{
+    margin-top: 3%;
+}
+	
+#mission p{
+	font-size:1em;
+}
+
+#founded{
+font-size:1.12em;
+}
+	
+#ceo,#cco,#strategy{
+display: none;
+}
+
+#title3 p{
+		display:none;
+	}
+	
+
+#infodelcarajo h4, #address h4{
+    font-size: 1em;
+}
+
+#infodelcarajo p, #address p{
+font-size:0.75em;
+}
+
+#SignupBTN{
+font-size: 0.5em;
+}
+
+#footer{
+	font-size: 0.75em;
+	padding-bottom:2%;
+	
+}
+	
+#logos h2{
+font-size:1em;
+}
+
+
+#title3 h2{
+	font-size:1.25em;
+}
+
+}
+
+	@media screen and (max-width:480px){
+			#address{
+		display: none;
+	}
+		
+	
+
+	
+
+

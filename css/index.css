@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Franklin Gothic Demi";
+	src: url("../fonts/Franklin Gothic Demi/FranklinGothicDemi.ttf");
+}
+
+#general{
+	max-width:1280px;
+	position: relative;
+}
+
+body{
+font-family: "Franklin Gothic Demi";	
+}
+
+
+#logo{
+    position: absolute;
+    z-index: 2;
+    margin-left: 5%;
+    width: 10%;
+}
+
+#imagen{
+width:100%;
+height:auto;
+}
+
+
+#nav{
+    z-index: 0;
+    margin-bottom: 5%;
+	color:#FFFFFF !important;
+	padding: 0;
+}
+
+.navbar-custom{
+	background-color:#CB2E3A; 
+	font-size:18px;
+}	
+
+.nav-item{
+    text-align: right;
+}
+
+.navbar-nav > .active > a {
+color: white !important;
+margin: 20px;
+}
+
+#donate {
+    background-color: #061032;
+margin: 20px;
+}
+
+#donate-nav{
+    background-color: #061032;
+
+}
+
+
+/*
+#eye{
+    position: absolute;
+    left: 539px;
+}
+*/
+
+
+
+
+/*
+#franjita{
+background-color: #DDEFF5;
+position: relative;
+
+}
+*/
+
+#columntexto{
+    padding-top: 7%;
+}
+
+#repressive h1{
+	color:#BF2D3F;
+	font-size:2em;
+}
+
+#repressive p{
+	color:#061032;
+	font-size:1.06em;
+}
+
+#we{
+    border-left: 11px solid #BF2D3F;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 6%;
+}
+
+#we h2{
+	color:#061032;
+	font-size:1.56em;
+}
+
+#we p{
+    color: #061032;
+    font-size: 1.06em;
+    text-transform: uppercase;
+    line-height: 17px;
+}
+
+#acomtitle{
+    text-transform: uppercase;
+    color: #061032;
+    font-size: 1.56em;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#fam, #camps, #rescued {
+text-align: center;
+}
+
+#textone{
+background-color: #00479E;
+}
+
+#texttwo{
+background-color: #FFB620;
+}
+
+#textthree{
+background-color: #CB2E3A;
+}
+
+#accom{
+color:#FFFFFF;
+}	
+
+#accom h4{
+	font-size:1.25em;
+}
+
+#accom p{
+	font-size:1em;
+	text-transform: uppercase;
+}
+
+#contact{
+	margin-top:3%;
+	background-color: #061032;
+	color:#FFF;
+}
+
+#infodelcarajo, #address{
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+#infodelcarajo h4, #address h4{
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+#infodelcarajo p, #address p{
+font-size:1em;
+}
+
+#SignupBTN{
+text-transform: uppercase;
+font-size: 0.75em;
+}
+
+#address{
+	text-align: right;
+}
+
+#footer{
+	widht:100%;
+	text-align: center;
+	background-color: #061032;
+	color:#FFF;
+	font-size: 0.93em;
+	padding-bottom:2%;
+}
+
+
+#ready{
+	margin-top:3%;
+	text-align:center;
+}
+
+#ready2{
+	font-family: "Franklin Gothic Demi";
+	text-transform:uppercase;
+	background-color:#BF2D3F;
+	font-size:1.12em;
+}
+
+#extra p{
+	font-size:1.12em;
+}
+
+#intro h2{
+	margin-top:2%;
+	font-family: "Franklin Gothic Demi";
+	text-align:center;
+	text-transform: uppercase;
+	color:#FFB620;
+	font-size:1.56em;
+	
+}
+
+#intro p{
+	font-family: "Franklin Gothic Demi";
+	text-align:center;
+	color:#061032;
+	font-size:1.3em;
+	
+}
+
+#intro2 h3, #intro3 h3, #intro4 h3{
+ 	font-family: "Franklin Gothic Demi";
+	font-size:1.3em;
+	text-transform: uppercase;
+	text-align:left;
+	color:#0B5DA7;
+}
+
+
+#check{
+text-align: left;	
+margin-top:2%;
+text-transform: uppercase;
+}
+
+#check2{
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 2%;
+}
+
+#submit{
+	font-family: "Franklin Gothic Demi";
+	text-transform:uppercase;
+	background-color:#BF2D3F;
+	font-size:1.12em;
+	
+}
+
+.form-group{
+	font-family: "Franklin Gothic Demi";
+	font-size:1.12em;
+}
+
+
+
+@media screen and (max-width:768px){
+	
+#repressive h1{
+	font-size:1.25em;
+}
+
+#repressive p{
+	font-size:0.93em;
+}
+
+#we h2{
+	font-size:1em;
+}
+
+#we p{
+    font-size: 0.75em;
+}
+
+#acomtitle{
+    font-size: 1em;
+}
+
+#infodelcarajo h4, #address h4{
+    font-size: 1em;
+}
+
+#infodelcarajo p, #address p{
+font-size:0.75em;
+}
+
+#SignupBTN{
+font-size: 0.5em;
+}
+
+#footer{
+	font-size: 0.75em;
+	padding-bottom:2%;
+}
+	
+	
+	
+	@media screen and (max-width:480px){
+			#address{
+		display: none;
+	}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

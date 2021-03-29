@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "Franklin Gothic Demi";
+	src: url("../fonts/Franklin Gothic Demi/FranklinGothicDemi.ttf");
+}
+
+#logo{
+    position: absolute;
+    z-index: 2;
+    margin-left: 5%;
+    width: 10%;
+}
+
+#imagen{
+width:100%;
+height:auto;
+}
+
+#general{
+	max-width:1280px;
+	position: relative;
+}
+
+body{
+font-family: "Franklin Gothic Demi";	
+}
+
+
+
+#nav{
+    z-index: 0;
+    margin-bottom: 5%;
+	color:#FFFFFF !important;
+	padding: 0;
+}
+
+.navbar-custom{
+	background-color:#CB2E3A; 
+	font-size:18px;
+}	
+
+.nav-item{
+    text-align: right;
+}
+
+.navbar-nav > .active > a {
+color: white !important;
+margin: 20px;
+}
+
+#donate {
+    background-color: #061032;
+margin: 20px;
+}
+
+#donate-nav{
+    background-color: #061032;
+
+}
+
+
+
+
+
+#title{
+    margin-bottom: 3%;
+    margin-top: 10%;	
+}
+
+#title h1{
+    font-family: "Franklin Gothic Demi";
+	 color: #BF2D3F;
+	font-size:2.25em;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300479E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300479E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+#title2 h2{
+	font-family: "Franklin Gothic Demi";
+	color: #061032;
+	margin-top:3%;
+	text-align:center;
+	text-transform: uppercase;
+	font-size:1.56em;
+	margin-bottom:3%;
+}
+
+#azul{
+  text-align: center;
+}
+
+#info{
+margin-top:3%;
+}
+
+.accordion {
+	font-family: "Franklin Gothic Demi";
+	color: #061032;
+	margin-botto:3%;
+}
+ .accordion .card {
+	 border: none;
+	 margin-bottom: 20px;
+}
+ .accordion .card h2 {
+	 background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+	 background-size: 20px;
+	 cursor: pointer;
+	 font-size: 1.3em;
+}
+
+.accordion .card p{
+font-size:1.12em;
+ color:#579ED1;
+}
+ .accordion .card h2.collapsed {
+	 background-image: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png);
+}
+ .accordion .card-body {
+	 padding-left: 0;
+	 padding-right: 0;
+}
+
+
+
+
+#dona p{
+	font-family: "Franklin Gothic Demi";
+	font-size:1.25em;
+}
+
+#dona h3{
+font-family: "Franklin Gothic Demi";
+font-size:1.3em;
+	
+}
+
+#dona{
+	border-left: 11px solid #BF2D3F;
+    padding-left: 2%;
+    margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#test{
+	margin-top:1%;
+	font-family: "Franklin Gothic Demi";
+	text-transform:uppercase;
+	background-color:#BF2D3F;
+	font-size:0.93em;
+	color:#FFFFFF;
+}
+
+#test2{
+	text-align: center;
+}
+
+#contact{
+	font-family: "Franklin Gothic Demi";
+	margin-top:3%;
+	background-color: #061032;
+	color:#FFF;
+}
+
+#infodelcarajo, #address{
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+#infodelcarajo h4, #address h4{
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+#infodelcarajo p, #address p{
+font-size:1em;
+}
+
+#SignupBTN{
+text-transform: uppercase;
+font-size: 0.75em;
+}
+
+#address{
+	text-align: right;
+}
+
+#footer{
+	font-family: "Franklin Gothic Demi";
+	widht:100%;
+	text-align: center;
+	background-color: #061032;
+	color:#FFF;
+	font-size: 0.93em;
+	padding-bottom:2%;
+}
+
+
+
+
+@media screen and (max-width:768px){
+	
+#title h1{
+	font-size:1.56em;
+}
+
+#infodelcarajo h4, #address h4{
+    font-size: 1em;
+}
+
+#infodelcarajo p, #address p{
+font-size:0.75em;
+}
+
+#SignupBTN{
+font-size: 0.5em;
+}
+
+#footer{
+	font-size: 0.75em;
+	padding-bottom:2%;
+}
+
+	
+#title2 h2{
+font-size:1.3em;	
+	}
+
+.accordion .card h2 {
+	 font-size: 1.2em;
+}
+
+.accordion .card p{
+font-size:1em;
+}
+
+#dona p{
+	font-size:1.12em;
+}
+
+#dona h3{
+font-size:1.3em;
+	
+}
+
+#test{
+	font-size:0.93em;
+}
+
+	
+}
+
+@media screen and (max-width:480px){
+			#address{
+		display: none;
+	}
+		#title h1{
+	font-size:1em;
+}
+		
+#title2 h2{
+		font-size:1em;	
+	}
+	
+.accordion .card h2 {
+	 font-size: 0.93em;
+}
+
+.accordion .card p{
+font-size:0.93em;
+}
+	
+	#azul{
+		display: none;
+	}
+
+	}
+
+
